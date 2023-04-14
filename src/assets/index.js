@@ -28,11 +28,20 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import signLanguage from "./sign_language2.png";
+import faceMask from "./face_mask.png";
+import expense from "./expense.png";
+import todo from "./todo.jpg";
+import carRental from "./car_image.png";
+import youtubeClone from "./youtube.png";
 
 export {
+  signLanguage,
+  faceMask,
+  expense,
+  todo,
+  carRental,
+  youtubeClone,
   logo,
   backend,
   creator,
@@ -58,9 +67,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   cplusplus,
   python,
 };

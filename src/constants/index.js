@@ -20,11 +20,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   nextjs,
+  signLanguage,
+  faceMask,
+  expense,
+  todo,
+  carRental,
+  youtubeClone,
 } from "../assets";
 
 export const navLinks = [
@@ -213,62 +216,115 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Node JS",
+        color: "darkgreen-text-gradient",
       },
     ],
-    image: carrent,
+    image: carRental,
+    source_code_link: "https://github.com/kabeerx9/Kabeer-Rental_car.git",
+  },
+  {
+    name: "Face Mask Detection",
+    description:
+      "Desktop Application to detect Face Mask with 4 different Labels.",
+    tags: [
+      {
+        name: "Python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tensorflow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "PyQT5",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: faceMask,
+    source_code_link: "https://github.com/kabeerx9/Face_Mask_Detection.git",
+  },
+  {
+    name: "Sign Language Detection",
+    description: "Project to convert American Sign Language to text real time.",
+    tags: [
+      {
+        name: "Python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tensorflow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: signLanguage,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Expense Tracker",
+    description: "An app to keep track of past expenses with respective dates.",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: expense,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Youtube Clone ",
+    description:
+      "Developed a youtube clone using ReactJS , MaterialUI and Rapid API",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rapid API",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React-Routing",
+        color: "green-text-gradient",
+      },
+    ],
+    image: youtubeClone,
+    source_code_link: "https://github.com/kabeerx9/Web-Dev-Projects.git",
+  },
+  {
+    name: "TODO - LIST",
+    description:
+      "An advanced TODO app created with Antd and ReactJS with Filtering, Sorting and Tags.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ant-design",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/kabeerx9/react-to-do-assignment.git",
   },
 ];
 
