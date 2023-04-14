@@ -1,5 +1,7 @@
 import {
   mobile,
+  cplusplus,
+  python,
   backend,
   creator,
   web,
@@ -14,7 +16,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -69,6 +71,14 @@ const technologies = [
     icon: css,
   },
   {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -109,8 +119,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "next JS",
+    icon: nextjs,
   },
 ];
 

@@ -7,8 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import cplusplus from "./tech/cplusplus.png";
+import python from "./tech/python.png";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import nextjs from "./tech/nextjs.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -40,7 +42,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  nextjs,
   figma,
   git,
   html,
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  cplusplus,
+  python,
 };
