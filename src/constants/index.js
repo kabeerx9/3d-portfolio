@@ -109,18 +109,18 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "next JS",
     icon: nextjs,
@@ -230,6 +230,7 @@ const projects = [
     ],
     image: carRental,
     source_code_link: "https://github.com/kabeerx9/Kabeer-Rental_car.git",
+    live_link: "",
   },
   {
     name: "Face Mask Detection",
@@ -251,6 +252,7 @@ const projects = [
     ],
     image: faceMask,
     source_code_link: "https://github.com/kabeerx9/Face_Mask_Detection.git",
+    live_link: "",
   },
   {
     name: "Sign Language Detection",
@@ -271,22 +273,29 @@ const projects = [
     ],
     image: signLanguage,
     source_code_link: "https://github.com/",
+    live_link: "",
   },
   {
-    name: "Expense Tracker",
-    description: "An app to keep track of past expenses with respective dates.",
+    name: "Quiz APP",
+    description:
+      "An app to where u can create your own quiz / give already existing quiz with timer and points functionality.",
     tags: [
       {
         name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "blue-text-gradient",
       },
     ],
     image: expense,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kabeerx9/quiz-react-app.git",
+    live_link: "https://quiz-react-mui.netlify.app/app",
   },
   {
     name: "Youtube Clone ",
@@ -308,6 +317,7 @@ const projects = [
     ],
     image: youtubeClone,
     source_code_link: "https://github.com/kabeerx9/Web-Dev-Projects.git",
+    live_link: "https://kj-youtube-clone.netlify.app/",
   },
   {
     name: "TODO - LIST",
@@ -325,6 +335,7 @@ const projects = [
     ],
     image: todo,
     source_code_link: "https://github.com/kabeerx9/react-to-do-assignment.git",
+    live_link: "https://antd-todo.netlify.app/",
   },
 ];
 
